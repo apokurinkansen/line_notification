@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '*/1 * * * *'  # 5分ごとのスケジュール
+    - cron: '0 7 * * 6'  # 毎週土曜日の朝7:00
 
 jobs:
   notify-line:
